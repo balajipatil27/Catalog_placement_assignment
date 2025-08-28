@@ -289,19 +289,3 @@ int main() {
     return 0;
 }
 
-/*
-How to use this program:
-1. Save your JSON data to a file (e.g., "secret.json")
-2. Compile: g++ -o secret_solver secret_solver.cpp
-3. Run: ./secret_solver
-4. Enter the filename when prompted
-5. The program will decode and display the secret
-
-Key improvements made:
-- Object-oriented design with a dedicated SecretSolver class
-- More descriptive variable and function names
-- Better error handling and user feedback
-- Cleaner separation of concerns
-- More intuitive program flow
-- Enhanced output formatting
-*/
